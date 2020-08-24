@@ -61,7 +61,7 @@ app.route({
                 },
                 password: {
                     type: 'string',
-                    pattern: '[a-z][a-z0-9]{3,23}'
+                    pattern: '[a-z0-9]{6,}'
                 },
             }
         }
@@ -97,7 +97,7 @@ app.route({
                 },
                 password: {
                     type: 'string',
-                    pattern: '[a-z][a-z0-9]{3,23}'
+                    pattern: '[a-z0-9]{6,}'
                 },
             }
         }
