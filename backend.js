@@ -63,6 +63,14 @@ app.route({
                     type: 'string',
                     pattern: '[a-z0-9]{6,}'
                 },
+                nationalID: {
+                    type: 'string',
+                    pattern: '[0-9]{10}'
+                },
+                mobilePhone: {
+                    type: 'string',
+                    pattern: '09[0-9]{9}'
+                },
             }
         }
     },
