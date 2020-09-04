@@ -67,6 +67,9 @@ app.route({
                     type: 'string',
                     pattern: '[0-9]{10}'
                 },
+                active: {
+                    type: 'boolean'
+                },
                 mobilePhone: {
                     type: 'string',
                     pattern: '09[0-9]{9}'
