@@ -89,6 +89,7 @@ app.route({
             password: req.body.password,
             nationalID: req.body.nationalID,
             mobilePhone: req.body.mobilePhone,
+            active: req.body.active,
         });
 
         await fsp.writeFile(usersJsonPath, JSON.stringify(users));
